@@ -9,3 +9,6 @@ for example: 784925 -> sept cent quatre-vingts-quatre mille neuf cent ving-cinq
 How to use
 ==============
 just execute script with one argument
+screenshot
+==============
+![ScreenShot](https://raw.githubusercontent.com/natchkebiailia/NumberToFrench/master/screenshot.png)
