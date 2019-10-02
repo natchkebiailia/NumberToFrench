@@ -86,13 +86,14 @@ jusqua1000000000(){
 
 re='^[0-9]+$'
 if ! [[ $1 =~ $re ]]; then
-	echo "Error: Not a number!";
+	echo "Erreur: Pas un nombre!";
 	exit 1;
 else
 	if test $1 -lt 1000000000; then
 		jusqua1000000000 $1;
 		echo;
 	else
-		echo "Error: To big Number!";
+		echo "Erreur: Nombre trop grand!";
+
 	fi
 fi
